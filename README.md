@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('1430146186:AAGCeO9FFaRsSEh8wLa0C1nJKABZ_9F302w')
+bot = telebot.TeleBot('TOKEN')
 from telebot import types
 @bot.message_handler(commands=['help'])
 def helper(message):
